@@ -8,7 +8,7 @@ const valid_values = {
     cardName: "John Smith",
     cardNumber: "4111111111111111",
     cardType: "VISA",
-    cardExpiration: "05/2022",
+    cardExpiration: "05/2028",
     cardSecurityCode: "352",
     cardPostalCode: "L6R 3K5",
 };
