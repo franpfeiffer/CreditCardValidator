@@ -18,7 +18,19 @@ body {
     box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
     background-color: #6c6666;
   }
+
+  .formControl{
+    margin-bottom: 3%;
+  }
   
+  .validateButton {
+    width: 100%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
   .alert {
     text-align: center;
     margin-top: 20px;

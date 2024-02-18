@@ -26,6 +26,7 @@ const CreditCardForm = () => {
                         <Form onSubmit={handleSubmit}>
                             <Form.Group>
                                 <Form.Control
+                                    className="formControl"
                                     type="text"
                                     id="cardName"
                                     data-testid="cardName"
@@ -39,6 +40,7 @@ const CreditCardForm = () => {
                             </Form.Group>
                             <Form.Group>
                                 <Form.Control
+                                    className="formControl"
                                     type="number"
                                     id="cardNumber"
                                     data-testid="cardNumber"
@@ -54,6 +56,7 @@ const CreditCardForm = () => {
                                 <Col>
                                     <Form.Group>
                                         <Form.Control
+                                            className="formControl"
                                             type="text"
                                             name="cardType"
                                             id="cardType"
@@ -69,6 +72,7 @@ const CreditCardForm = () => {
                                 <Col>
                                     <Form.Group>
                                         <Form.Control
+                                            className="formControl"
                                             type="text"
                                             id="cardExpiration"
                                             data-testid="cardExpiration"
@@ -86,6 +90,7 @@ const CreditCardForm = () => {
                                 <Col>
                                     <Form.Group>
                                         <Form.Control
+                                            className="formControl"
                                             type="number"
                                             id="cardSecurityCode"
                                             data-testid="cardSecurityCode"
@@ -101,6 +106,7 @@ const CreditCardForm = () => {
                                 <Col>
                                     <Form.Group>
                                         <Form.Control
+                                            className="formControl"
                                             type="text"
                                             id="cardPostalCode"
                                             data-testid="cardPostalCode"
@@ -118,6 +124,7 @@ const CreditCardForm = () => {
                                 size={"block"}
                                 data-testid="validateButton"
                                 id="validateButton"
+                                className="validateButton"
                                 type="submit"
                             >
                                 Validate
